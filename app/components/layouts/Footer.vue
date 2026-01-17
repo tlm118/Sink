@@ -20,7 +20,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
         "
         :title="title"
       >{{ title }}</a>
-       @ {{ new Date().getFullYear() }}
+       - {{ new Date().getFullYear() }}
       <span
         class="
           mt-4 inline-flex justify-center space-x-5
