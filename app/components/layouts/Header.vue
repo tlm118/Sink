@@ -116,7 +116,7 @@ const { title, github } = useAppConfig()
                 />
                 棋哥资源库</a>
 
-              //<SwitchLanguage />
+              <SwitchLanguage />
 
               <SwitchTheme />
             </div>
