@@ -19,8 +19,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
           dark:text-gray-100
         "
         :title="title"
-      >{{ title }}</a>
-       - {{ new Date().getFullYear() }}
+      >{{ title }}</a> - {{ new Date().getFullYear() }}
       <span
         class="
           mt-4 inline-flex justify-center space-x-5
