@@ -99,7 +99,7 @@ const { title, github } = useAppConfig()
                 :title="`${title} Dashboard`"
               >{{ $t('dashboard.title') }}</a>
               <a
-                :href="https://doc.7ge.top"
+                :href="github"
                 target="_blank"
                 title="Github"
                 class="
