@@ -13,24 +13,14 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
       "
     >
       <a
-        href="https://sink.cool"
+        href="https://7ge.top"
         class="
           text-xl leading-none font-black text-gray-900 select-none
           dark:text-gray-100
         "
         :title="title"
       >{{ title }}</a>
-      <a
-        class="
-          mt-4 text-sm text-gray-500
-          sm:mt-0 sm:ml-4 sm:border-l sm:border-gray-200 sm:pl-4
-        "
-        href="https://html.zone"
-        target="_blank"
-        title="HTML.ZONE"
-      >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
-      </a>
+      {{ new Date().getFullYear() }}
       <span
         class="
           mt-4 inline-flex justify-center space-x-5
