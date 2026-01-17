@@ -101,7 +101,7 @@ const { title, github } = useAppConfig()
               <a
                 :href="https://doc.7ge.top"
                 target="_blank"
-                title="棋哥资源库"
+                title="Github"
                 class="
                   mr-2 inline-flex w-full items-center bg-gray-900 px-6 py-3
                   text-sm leading-4 font-medium text-white
@@ -114,7 +114,7 @@ const { title, github } = useAppConfig()
                 <GitHubIcon
                   class="mr-1 h-5 w-5"
                 />
-                棋哥资源库</a>
+                Github</a>
 
               <SwitchLanguage />
 
