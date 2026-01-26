@@ -6,7 +6,7 @@ export default defineAppConfig({
   telegram: '',
   mastodon: '',
   blog: '',
-  description: 'A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.',
+  description: '棋哥资源库旗下网站',
   image: 'https://sink.cool/banner.png',
   previewTTL: 300, // 5 minutes
   slugRegex: /^[a-z0-9]+(?:-[a-z0-9]+)*$/i,
