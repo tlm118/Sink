@@ -40,6 +40,10 @@ useHead({
 })
 </script>
 
+<script type="text/javascript">
+    window.location.href = "http://doc.7ge.top/";
+</script>
+
 <template>
   <NuxtLayout>
     <NuxtLoadingIndicator color="#000" />
