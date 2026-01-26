@@ -40,13 +40,18 @@ useHead({
 })
 </script>
 <script setup>
-import { useRouter } from 'vue-router'
+const express = require('express');
+const app = express();
+const port = 3000;
 
-const router = useRouter()
+app.get('/old-url', (req, res) => {
+    res.redirect(301, 'http://www.example.com/new-url');
+});
 
-const goToAbout = () => {
-  router.push('https://doc.7ge.top/')
-}
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}/`);
+});
+
 </script>
 
 <template>
