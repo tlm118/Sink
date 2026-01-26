@@ -1,16 +1,3 @@
-<script>
-export default {
-  name: 'Home',
-  mounted() {
-    if (window.location.pathname === '/') {
-      // 外部域名跳转
-      window.location.replace('https://doc.7ge.top/');
-      // 内部路由跳转用 this.$router.replace('/new-home')
-    }
-  }
-}
-</script>
-
 <script setup>
 const { title, description, image } = useAppConfig()
 
