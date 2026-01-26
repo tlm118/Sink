@@ -39,7 +39,15 @@ useHead({
   ],
 })
 </script>
+<script setup>
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
+
+const goToAbout = () => {
+  router.push('https://doc.7ge.top/')
+}
+</script>
 
 <template>
   <NuxtLayout>
