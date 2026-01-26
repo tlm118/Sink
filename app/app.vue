@@ -52,3 +52,9 @@ useHead({
   ],
 })
 </script>
+<template>
+  <NuxtLayout>
+    <NuxtLoadingIndicator color="#000" />
+
+  </NuxtLayout>
+</template>
