@@ -40,9 +40,6 @@ useHead({
 })
 </script>
 
-<script setup>
-    window.location.href = "http://doc.7ge.top/";
-</script>
 
 <template>
   <NuxtLayout>
